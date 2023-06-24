@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;400;700&family=Nunito:ital,wght@0,400;0,700;1,200&family=Roboto&family=Roboto+Slab&display=swap');
+
+
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: grey;
+  --background-color: #830E2D;
+  --cuartery-color: black;
+  --quintery-color: #550055;
+  --sextery-color: #EABE3F;
+  --septery-color: #564135;
+  --background-color: rgb(199, 193, 193);
+
+
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-decoration-color: none;
+  list-style: none;
+}
+
+body {
+  background-color: #fff;
+  background-size: cover;
+  font-family: 'Nunito', sans-serif;
+  color:#550055;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  color: #550055;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img{
+  height: 8rem;
+  width: 8rem;
+  gap: 20px;
+  
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.mostrar-menu,
+.esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+   display: none;
+   transition: 0.4s;
+}
+
+ .mostrar-menu{
+    order: 1;
+
+} 
+.menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover{
+    color: #EABE3F;
+}
+#check{
+    display: none;
+}
+
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  margin: 15px
+}
+
+.sobre-nosotros{
+  text-align: center;
+}
+
+
+
+.video-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.products h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #550055;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.filter {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 50px;
+  gap: 20px;
+  flex-wrap: wrap;
+ 
+}
+
+input, select {
+  padding: 12px;
+  font-size: 16px;
+  border-width: 4px;
+  border-color: #EABE3F;
+  background-color: rgb(199, 193, 193);
+  color: #000000;
+  border-style: solid;
+  border-radius: 9px;
+  box-shadow: 5px 6px 7px rgba(66,66,66,.62);
+  text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+
+input:focus {
+  outline:none;
+}
+
+.button-filter, .reset{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+
+.button-59  {
+  align-items: center;
+  background-color: rgb(159, 153, 153);
+  border: 2px solid #550055;
+  box-sizing: border-box;
+  color: #550055;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #550055;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-59:focus {
+  color: #564135;
+}
+
+.button-59:hover {
+  border-color: #EABE3F;
+  color: #EABE3F;
+  fill: #EABE3F;
+}
+
+.button-59:active {
+  border-color: #EABE3F;
+  color: #EABE3F;
+  fill: #EABE3F;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
+
+.products .titulo{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.products > .box-container{
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  gap: 1rem; 
+}
+
+.products .box-container .box{
+  text-align: center;
+  border: 5px solid #EABE3F;
+  padding: 1rem;
+  background-color: rgb(199, 193, 193);
+}
+
+.products .box-container .box .image{
+  padding: 2rem 0;
+}
+
+.products .box-container .box .image img{
+  height: 12rem;
+  cursor: pointer;
+  transition: transform .5s;
+  
+
+}
+
+.products .box-container .box .image img:hover{
+
+  transform: scale(1.5);
+}
+
+.products .box-container .box .contenido h4{
+  color: #550055;
+  font-size: 2rem;
+}
+.products .box-container .box .contenido h3{
+  color: #550055;
+  font-size: 2rem;
+}
+
+.products .box-container .box .contenido .price{
+  color: #550055;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #564135;
+  margin-top: 50px;
+  width: 100%;
+  height: 200px; 
+}
+
+.rrss-container{
+  padding: 1rem 0;
+}
+
+.rrss-container a img{
+  height: 2rem;
+  width: 2rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  color: #fff;
+  margin: .3rem;
+  border-radius: 50%;
+}
+
+.rrss-container a:hover img{
+  border: 2px solid #EABE3F;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 1.5s ease;
+}
+
+.credit {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: lighter;
+  padding: 1.5rem;
+}
+
+.credit span{
+  color: #EABE3F;
+}
+
+@media screen and (max-width: 800px) {
+.info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.navbar{
+  position: fixed;
+  width: 10rem;
+  height: 15rem;
+  background: #564135;
+  right: -100%;
+  top: 0;
+  text-align: center;
+  padding: 30px;
+  z-index: 100;
+  transition: 0.8s;
+}
+
+.navbar a{
+  color: #EABE3F;
+  display: block;
+  padding: 10px;
+}
+.mostrar-menu,
+.esconder-menu{
+    display: block;  
+}
+
+
+.esconder-menu{
+  color: #EABE3F;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#check:checked ~ .navbar{
+  right: 0;
+}
+}
+
+@media screen and (max-width: 430px){
+  header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+header h1{
+    font-size: 25px;
+}
+
+.sobre-nosotros{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sobre-nosotros h2{
+  font-size: 30px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="shortcut icon" href="./assets/icons8-madera-barril-de-cerveza-48.png" type="image/x-icon">
+  <title> La Vinoteca De Josele </title>
+</head>
+
+<body>
+
+  <header class="header" id="inicio">
+    <div class="logo">
+      <img src="assets/imagen-brazo-arco.jpg" alt="img">
+    </div>
+    <h1> 🍇 La Vinoteca De Josele 🍇 </h1>
+    <input type="checkbox" id="check">
+    <label for="check" class="mostrar-menu">
+      &#8801
+    </label>
+    <nav class="navbar">
+      <a href="#">Inicio</a>
+      <a href="#info">Sobre Nosotros</a>
+      <a href="#products">Productos</a>
+
+      <label for="check" class="esconder-menu">
+        &#215
+      </label>
+
+  </header>
+  <main>
+    <section class="info" id="info">
+      <div class="sobre-nosotros">
+        <h2>Acerca de La Vinoteca de Josele </h2>
+        <p>Creada en 1999, y hoy dirigida por José Miguel Díaz (hijo del fundador) y Daniel Yepes, el concepto La
+          Vinoteca de Josele ha revolucionado el enfoque tradicional del comercio del vino y el mundo de la
+          distribución, destacando en particular la fuerte dimensión cultural del producto. La Vinoteca de Josele
+          ofrece una gama de 4.500 vinos, cavas, licores y accesorios, de más de 30 países diferentes. Está presente
+          en España, Francia y Suiza.</p>
+      </div>
+      <div class="video-container">
+        <video src="./assets/istockphoto-1371031999-640_adpp_is.mp4" width="400" controls autoplay loop></video>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <h3>Encuentra tus mejores vinos</h3>
+      <div class="filter">
+        <select name="" id="search-seller">
+          <option value="">Denominación De Origen</option>
+          <option value="Rioja">Rioja</option>
+          <option value="Ribera Del Duero">Ribera Del Duero</option>
+          <option value="Toro">Toro</option>
+          <option value="Jumilla">Jumilla</option>
+        </select>
+        <!-- <input value="" class="filter-seller" type="text" id="search-seller" placeholder="Buscar por demoninacion"> -->
+        <input value="" class="filter-price" type="number" id="search-price" placeholder=" Precio Máximo  🍷">
+      </div>
+      <div class="button-filter">
+        <button id="button-filter" class="button-59">Buscar</button>
+      </div>
+      <div class="reset">
+        <button id="button-reset" class="button-59">Reiniciar</button>
+      </div>
+      <div class="box-container" id="shop-container">
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <div class="rrss-container">
+      <a href="#"><img src="assets/icons8-linkedin-50.png" alt="Linkedin"></a>
+      <a href="#"><img src="assets/icons8-github-50.png" alt="Github"></a>
+      <a href="#"><img src="assets/icons8-facebook-50.png" alt="Facebook"></a>
+      <a href="#"><img src="assets/icons8-instagram-50.png" alt="Instagram"></a>
+      <a href="#"><img src="assets/icons8-teléfono-celular-50.png" alt="Movil"></a>
+      <a href="mailto:brooklynscoffee@gmail.com"><img src="assets/icons8-correo-50.png" alt="Email"></a>
+    </div>
+    <div class="credit">
+      Created by José Miguel<span> Shop Wines 2023 </span>©️ all rights reserved
+    </div>
+  </footer>
+
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
