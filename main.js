@@ -33,7 +33,7 @@ const products = [
   },
   {
     name: 'Prado Rey',
-    seller: 'ribera del Duero',
+    seller: 'Ribera Del Duero',
     image: 'assets/adaro-de-pradorey-ribera-del-duero.jpg',
     price: 30,
   },
@@ -45,19 +45,19 @@ const products = [
   },
   {
     name: 'Flor de Pingus',
-    seller: 'Ribera del Duero',
+    seller: 'Ribera Del Duero',
     image: 'assets/flor-de-pingus-2009.jpg',
     price: 200,
   },
   {
     name: 'TRUSS',
-    seller: 'Ribera del Duero',
+    seller: 'Ribera Del Duero',
     image: 'assets/TRUS_RESERVA_ok-1.jpg',
     price: 30,
   },
   {
     name: 'Pesquera',
-    seller: 'Ribera del Duero',
+    seller: 'Ribera Del Duero',
     image: 'assets/2359431797.jpg',
     price: 60,
   },
@@ -69,7 +69,7 @@ const products = [
   },
   {
     name: 'Alabaster',
-    seller: 'Ribera del Duero',
+    seller: 'Ribera Del Duero',
     image: 'assets/alabastereso-la-Monja-Alabaster.jpg',
     price: 140,
   },
